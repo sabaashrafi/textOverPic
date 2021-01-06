@@ -1,0 +1,40 @@
+{
+  "name": "HiMart2.3.8",
+  "version": "2.3.8",
+  "private": true,
+  "webview": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve",
+    "generate": "nuxt build && nuxt export",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.3.45",
+    "@nuxtjs/axios": "^5.11.0",
+    "@sentry/browser": "^5.19.2",
+    "@sentry/integrations": "^5.19.2",
+    "intersection-observer": "^0.11.0",
+    "nuxt": "^2.13.3",
+    "nuxt-client-init-module": "^0.1.8",
+    "workbox-cdn": "^5.1.3",
+    "workbox-cli": "^5.1.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "@mdi/js": "^5.3.45",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "vuetify": "^2.3.4"
+  }
+}
